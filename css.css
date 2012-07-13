@@ -1,0 +1,134 @@
+body {
+  background-image:url(http://www.mozilla.org/media/img/sandstone/bg-stone.png);
+  background-repeat:repeat-x;
+  background-color:rgb(249,249,249);
+
+ }
+ 
+.noise {
+  position: relative;
+	z-index: 1;
+	}
+		
+.noise:before, .body-noise:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-image: url(data:image/png;base64,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);
+	opacity:0.3472;
+	}
+
+.gradient {
+  position: absolute;
+    z-index: 2;
+	opacity:0.3472;
+	}
+	
+.gradient:before, .body-gradient:before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	opacity:0.1753483;
+background-image: linear-gradient(top, rgb(105,134,208) 0%, rgb(0,35,125) 18%, rgb(43,85,151) 40%, rgb(67,139,211) 82%, rgb(103,166,208) 100%);
+background-image: -o-linear-gradient(top, rgb(105,134,208) 0%, rgb(0,35,125) 18%, rgb(43,85,151) 40%, rgb(67,139,211) 82%, rgb(103,166,208) 100%);
+background-image: -moz-linear-gradient(top, rgb(105,134,208) 0%, rgb(0,35,125) 18%, rgb(43,85,151) 40%, rgb(67,139,211) 82%, rgb(103,166,208) 100%);
+background-image: -webkit-linear-gradient(top, rgb(105,134,208) 0%, rgb(0,35,125) 18%, rgb(43,85,151) 40%, rgb(67,139,211) 82%, rgb(103,166,208) 100%);
+background-image: -ms-linear-gradient(top, rgb(105,134,208) 0%, rgb(0,35,125) 18%, rgb(43,85,151) 40%, rgb(67,139,211) 82%, rgb(103,166,208) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, rgb(105,134,208)),
+	color-stop(0.18, rgb(0,35,125)),
+	color-stop(0.4, rgb(43,85,151)),
+	color-stop(0.82, rgb(67,139,211)),
+	color-stop(1, rgb(103,166,208))
+);
+}
+
+/*	Column + Row presets
+	------------------	*/
+
+.one-col {width: 68px;}
+.two-col {width: 160px;}
+.three-col {width: 252px;}
+.four-col {width: 344px;}
+.five-col {width: 436px;}
+.six-col {width: 528px;}
+.seven-col {width: 620px;}
+.eight-col {width: 712px;}
+.nine-col {width: 804px;}
+.auto {max-width: 100%;}
+.full {width: 100%;}
+
+.one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col, .eight-col, .nine-col, .auto, .full img {max-width: 100%;}
+
+.row {clear: both; border-bottom: 1px dotted rgba(175,50,50,0.4); overflow: auto; margin-bottom: 48px; padding-top: 24px;}
+
+.gutter-bottom-24 {margin-bottom: 24px;}
+.gutter-bottom-48 {margin-bottom: 48px;}
+
+.gutter-top-24 {margin-top: 24px;}
+.gutter-left-24 {margin-left: 24px;}
+.gutter-right-24 {margin-right: 24px;}
+
+
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+html {
+	border-top: 2px solid white;
+}
+
+
+body {
+	width: 896px;
+	margin: 0px auto;
+	padding: 72px 48px 84px;
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+#menu {width: 100%; min-height: 72px; line-height: 72px; text-align: center; margin-bottom: 48px; font-family: 'OpenSans', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif; background-color: white;
+
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+
+}
+.menuItem {display: inline; margin: 0px;}
+#menu a {text-decoration: none; margin: 0px 24px; border-bottom: none;}
+#menu a:hover {color: rgba(0,0,0,0.8);}
+.top {font-family: 'OpenSans', "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;}
+
+
+#framework {position: relative;}
+#faux-tabzilla {position: absolute; top: -72px; right: 0px;}
+.style-example {margin-left: 252px; margin-bottom: 48px; min-width: 252px;}
+.style-example img {max-width: 100%;}
+.style-example li {list-style-type: square;}
+.style-example-text {float: left; margin-bottom: 48px; min-width: 252px; min-height: 436px; margin-right: 24px;}
+.style-example-text p {width: 252px;}
+.style-example-text h2 a {border-bottom: none;}
+.css-code {float: left; margin-bottom: 48px; max-width: 160px; margin-right: 24px; line-height: 125%; min-height: 436px;}
