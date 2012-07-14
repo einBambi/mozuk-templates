@@ -260,3 +260,19 @@ height:34px;
 #events ul li a:visited {
 	color:rgb(0,36,125);
 }
+
+#more { 
+display: block; 
+width: 101px; 
+height: 39px; 
+background: url(more.png) no-repeat top; 
+cursor:pointer;
+margin-top:30px;
+position:absolute;
+}
+
+#more:active { 
+background: url(morep.png) no-repeat top; 
+width:105px;
+height:44px;
+}
