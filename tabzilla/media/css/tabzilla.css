@@ -36,6 +36,10 @@
 
 /* Tab */
 
+html {
+border-top: 2px solid white;
+}
+
 #tabzilla {
     display: block;
     background: url(//www.mozilla.org/tabzilla/media/img/tab.png);
@@ -88,6 +92,7 @@
     overflow: hidden;
     direction: ltr;
     zoom: 1;
+    border-top: 2px solid white;
 }
 
 #tabzilla-panel:focus {
@@ -101,6 +106,7 @@
     text-align: left;
     position: relative;
     display:none;
+    
 }
 
 #tabzilla-panel.open #tabzilla-contents {
