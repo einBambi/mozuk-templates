@@ -139,6 +139,21 @@ h2 {
 	color:rgb(0,36,125);
 }
 
+h3 {
+	font-size:32px;
+	letter-spacing:-1px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	color:rgb(175,50,50);
+	margin-top:-180px;
+	margin-left:120px;
+	text-decoration:none;
+}
+
+h3:hover {
+	text-decoration:underline;
+}
+
 #news {
 	z-index:90;
 	text-decoration: none;
@@ -211,12 +226,13 @@ background: url(rm.png) no-repeat top;
 
 #events ul {
 	margin: 0px 0px 0px; 
-	float: right; 
-	margin-right:102px; 
+	float:right; 
+	margin-right:0px; 
 	list-style: none; 
-	margin-left:25px; 
+	margin-left:600px; 
 	text-decoration:none; 
 	margin-top:0px;
+	position:absolute;
 }
 
 #events ul li {
@@ -225,6 +241,7 @@ background: url(rm.png) no-repeat top;
 	width:408px; 
 	text-decoration:none;
 	margin-top:-25px;
+	width:427px;
 }
 
 #events ul li a { 
