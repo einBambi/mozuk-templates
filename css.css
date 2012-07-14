@@ -214,6 +214,8 @@ cursor:pointer;
 
 #rm:active { 
 background: url(rm.png) no-repeat top; 
+width:116px;
+height:34px;
 }
 
 #events {
